@@ -1,0 +1,119 @@
+[
+  {
+    "Province": "Alberta",
+    "Id": "1",
+    "Cities": [
+      "Banff",
+      "Brooks",
+      "Calgary"
+    ]
+  },
+  {
+    "Province": "British Columbia",
+    "Id": "2",
+    "Cities": [
+      "Barkerville",
+      "Burnaby",
+      "Campbell River"
+    ]
+  },
+  {
+    "Province": "Manitoba",
+    "Id": "3",
+    "Cities": [
+      "Brandon",
+      "Churchill",
+      "Dauphin"
+    ]
+  },
+  {
+    "Province": "New Brunswick",
+    "Id": "4",
+    "Cities": [
+      "Bathurst",
+      "Caraquet",
+      "Dalhousie"
+    ]
+  },
+  {
+    "Province": "Newfoundland and Labrador",
+    "Id": "5",
+    "Cities": [
+      "Argentia",
+      "Bonavista",
+      "Channel-Port aux Basques"
+    ]
+  },
+  {
+    "Province": "Nova Scotia",
+    "Id": "6",
+    "Cities": [
+      "Baddeck",
+      "Digby",
+      "Glace Bay"
+    ]
+  },
+  {
+    "Province": "Ontario",
+    "Id": "7",
+    "Cities": [
+      "Bancroft",
+      "Barrie",
+      "Belleville"
+    ]
+  },
+  {
+    "Province": "Prince Edward Island",
+    "Id": "8",
+    "Cities": [
+      "Borden",
+      "Cavendish",
+      "Charlottetown"
+    ]
+  },
+  {
+    "Province": "Quebec",
+    "Id": "9",
+    "Cities": [
+      "Asbestos",
+      "Baie-Comeau",
+      "Beloeil"
+    ]
+  },
+  {
+    "Province": "Saskatchewan",
+    "Id": "10",
+    "Cities": [
+      "Batoche",
+      "Cumberland House",
+      "Estevan"
+    ]
+  },
+  {
+    "Province": "Yukon",
+    "Id": "11",
+    "Cities": [
+      "Dawson",
+      "Watson Lake",
+      "Whitehorse"
+    ]
+  },
+  {
+    "Province": "Nunavut",
+    "Id": "12",
+    "Cities": [
+      "Dawson",
+      "Watson Lake",
+      "Whitehorse"
+    ]
+  },
+  {
+    "Province": "Northwest Territories",
+    "Id": "13",
+    "Cities": [
+      "Fort Smith",
+      "Hay River",
+      "Inuvik"
+    ]
+  }
+]
