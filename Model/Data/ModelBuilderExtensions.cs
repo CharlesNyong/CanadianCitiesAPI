@@ -5,9 +5,10 @@ using System.Text.Json.Nodes;
 
 namespace CanadianCitiesAPI.Model.Data
 {
+    // extends the functionality of modelBuilder
     public static class ModelBuilderExtensions
     {
-
+        // want flexibility with the type, so using dynamic
         private static dynamic jsonContentArray;
 
         public static void LoadJsonData() 
