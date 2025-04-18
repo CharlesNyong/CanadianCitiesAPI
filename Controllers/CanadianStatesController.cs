@@ -40,18 +40,18 @@ namespace CanadianCitiesAPI.Controllers
         /// <summary>
         /// Returns a list of json objects containing the cities for the given province
         /// </summary>
-        /// <param name="NameOfProvince">Name of province in full, no abbreviations.</param>
+        /// <param name="provinceName">Name of province in full, no abbreviations.</param>
         /// <returns></returns>
         [HttpGet]
-        [Route("CitiesByProvince/{NameOfProvince}")]
-        public async Task<ActionResult> GetCitiesByProvince(string NameOfProvince)
+        [Route("CitiesByProvince/{provinceName}")]
+        public async Task<ActionResult> GetCitiesByProvince(string provinceName)
         {
-            if (string.IsNullOrEmpty(NameOfProvince)) 
+            if (string.IsNullOrEmpty(provinceName)) 
             {
                 return BadRequest("province name cannot be empty!!");
             }
 
-            Province province = await dbContext.Provinces.Where(x => string.Equals(x.Name, NameOfProvince, StringComparison.OrdinalIgnoreCase)).FirstOrDefaultAsync();
+            Province province = await dbContext.Provinces.Where(x => string.Equals(x.Name, provinceName, StringComparison.OrdinalIgnoreCase)).FirstOrDefaultAsync();
 
             if (province == null) 
             {
